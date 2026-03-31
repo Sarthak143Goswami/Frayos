@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://github.com/Sarthak143Goswami/Frayos",
+  "homepage": "https://github.com/sarthak143goswami/Frayos",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
