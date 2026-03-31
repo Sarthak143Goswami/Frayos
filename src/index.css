@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #080808;
+  color: #F5F0E8;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080808;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4A017;
+  border-radius: 2px;
+}
+
+@keyframes spinA {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spinB {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
+}
+
+@keyframes spinC {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { text-shadow: 0 0 30px rgba(212, 160, 23, 0.5); }
+  50% { text-shadow: 0 0 70px rgba(212, 160, 23, 0.9); }
+}
+
+@media (max-width: 900px) {
+  .desk-nav {
+    display: none !important;
+  }
+  .hamburger {
+    display: flex !important;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hero-rings {
+    display: none !important;
+  }
+  .exp-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .about-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .founders-grid {
+    grid-template-columns: 1fr !important;
+    max-width: 420px !important;
+  }
+  .fb-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hours-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .form-row {
+    grid-template-columns: 1fr !important;
+  }
+}
